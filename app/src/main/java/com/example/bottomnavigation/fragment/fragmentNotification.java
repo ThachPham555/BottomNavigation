@@ -31,8 +31,8 @@ public class fragmentNotification extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_noti, container, false);
         list = new ArrayList<>();
-        list.add(new Messaage(R.drawable.ic_cat, "Thach", "Em an com chua?", "10:00"));
         list.add(new Messaage(R.drawable.ic_chub, "Quang", "Em an com chua?", "12:00"));
+        list.add(new Messaage(R.drawable.ic_cat, "Thach", "Em an com chua?", "10:00"));
         list.add(new Messaage(R.drawable.ic_cat, "Thach", "Em an com chua?", "14:00"));
         list.add(new Messaage(R.drawable.ic_chub, "Quynh", "Em an com chua?", "16:00"));
         list.add(new Messaage(R.drawable.ic_cat, "Manh", "Em an com chua?", "15:00"));

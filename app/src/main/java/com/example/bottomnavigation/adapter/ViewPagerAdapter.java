@@ -11,8 +11,6 @@ import com.example.bottomnavigation.fragment.fragmentNotification;
 import com.example.bottomnavigation.fragment.fragmentSearch;
 
 public class ViewPagerAdapter extends FragmentStatePagerAdapter {
-    int pageNum;
-
     public ViewPagerAdapter(@NonNull FragmentManager fm, int behavior) {
         super(fm, behavior);
     }
@@ -31,6 +29,6 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        return pageNum;
+        return 4;
     }
 }

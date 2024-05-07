@@ -23,6 +23,9 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.ViewHold
         this.context = context;
         this.list = list;
     }
+    public void setList(List<Messaage> list) {
+        this.list = list;
+    }
 
     @NonNull
     @Override
